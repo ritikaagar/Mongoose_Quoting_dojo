@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+    <h1>Here are the awesome quotes!</h1>
+    <hr>
+    <% for (var quote of quotes) {%>
+        <p>
+            Quote:
+            <%= quote.quote%>
+        </p>
+        <p>
+            Author:
+            <%= quote.name%>
+        </p>
+
+        <hr>
+        <% } %>
+</body>
+
+</html>
